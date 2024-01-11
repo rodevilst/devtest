@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+                img{
+            border-radius: 100%;
+            filter: drop-shadow(10px 10px 10px);
+            width: 200px;
+        }
+
+
+        body{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction:column ;
+            align-items: center;
+            font-family: Webdings;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+<header>
+
+    <h1>Hello! I'm RostiK</h1>
+    <h2>I love Java!</h2>
+</header>
+
+<div>
+    <img src="https://lh4.googleusercontent.com/-QoS5bs5azEjb-INSxt7AgGcfkkmaM0bSqap21-M25N36-UpD9ZuAMQAJQ2Mr6iEIEIuAb_MEJHCFHUmpVMB03thGxtUS59kWPeG2AeBFlylDQwxX-q0mzhw72teCcq5icgVK-IDqjTyznhMZYi-iFI">
+    <p>Just look how beautiful I am</p>
+    <p>That's why you should hire me</p>
+
+    <button onclick="removeFontFamily()">click me!</button>
+
+</div>
+
+
+<script>
+    function removeFontFamily() {
+        document.body.style.setProperty('font-family', 'initial', 'important');
+        console.log('removed')
+    }
+</script>
+
+</body>
+</html>
